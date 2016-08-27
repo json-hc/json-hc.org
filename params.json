@@ -1,1 +1,7 @@
-{"name":"JSON-HC","tagline":"A minimal media type: JSON with hypermedia controls","body":"tbd","google":"UA-61486927-1","note":"Don't delete this file! It's used internally to help with page regeneration."}
+{
+  "name": "JSON-HC",
+  "tagline": "A minimal media type: JSON with hypermedia controls",
+  "body": "# Introduction\r\n\r\nJSON Hypermedia Controls (JSON-HC) is a standard which establishes\r\nconventions for expressing hypermedia controls in JSON [RFC4627].\r\n\r\nThe Hypermedia Controls of JSON-HC provide a way to figure out which\r\nActions are possible with a Resource Object, what is the self URL of\r\nthe Object and of which profile is the Resource Object.\r\n\r\nThe official site of json-hc is <https://json-hc.org>.\r\n\r\n# Internet Draft\r\n\r\nThe latest internet draft is published at <https://tools.ietf.org/html/draft-schuetze-json-hc>\r\nand is maintained at <https://github.com/json-hc/json-hc-specification/blob/master/json-hc.md> in\r\nmarkdown.\r\n\r\n# Media-Type: `application/vnd.hc+json`\r\n\r\nThere will be a registered media-type at IANA: `application/vnd.hc+json`\r\n\r\n# Compare json-hc to ...\r\n\r\nIf you want to compare json-hc to [mike kelly's](https://github.com/mikekelly/) awesome [hal](stateless.co/hal_specification.html), I created a document called [json-hc-vs-hal.md](./json-hc-vs-hal.md).\r\n\r\n# Example Api\r\n\r\nThere is also an example api built with json-hc, which describes a game server api at [gameserver-json-example.md](./gameserver-json-example.md).\r\n\r\n# About the author\r\n\r\nThe maintainer and creator of json-hc is [dracoblue](https://dracoblue.net).\r\n",
+  "google": "UA-61486927-1",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
